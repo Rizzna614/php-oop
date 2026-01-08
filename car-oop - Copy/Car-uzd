@@ -1,0 +1,32 @@
+1.uzdevums: klases izvede (Car.php)
+Izveidojiet klasi Car, kas satur publiskas īpašības: id, name un distance.
+Pievienojiet metodi `printInfo`, kas ar `echo` izprintē visu minēto informāciju
+par konkrēto klases instanci noformatētu.
+Izveidojiet vienu Car klases instanci un saglabājiet to atmiņā ar nosaukumu $car1.
+Uzstādiet $car1 instancei sekojošas atribūtu vērtības: 1, "Volvo", 92000.
+Izsauciet `printInfo` metodi uz šīs instances un pārliecinieties,
+ka tā izprintē formatētu tekstu.
+
+2.uzdevums: konstruktors
+Izveidojiet Car klasei konstruktoru,
+kas ļauj uzstādīt visas atribūtu vērtības pie instances izveides.
+Mainiet atribūtu piekļūstamību uz 'private'.
+Izveidojiet jaunu auto $car2 izmantojot ar šādiem datiem: 2, "BWM", 300000.
+
+3.uzdevums:
+Izveidojiet 'setter' metodi distancei.
+Distances 'setter' metodē uzlieciet ierobežojumu,
+ka nobraukums nevar tikt ievadīts negatīvs.
+Izveidojiet metodi 'drive' ar vienu parametru.
+Padotais arguments tiks pieskaitīts nobraukumam.
+Piemēram, ja auto nobraukums
+ir 92'000 un tiek izsaukta metode 'drive' ar argumentu 1'000,
+tad konkrētā auto nobraukums tiek palielināts uz 93'000.
+Pārbaudiet 'drive' metodi ar dažādām vērtībām (arī negatīvām).
+
+4.uzdevums:
+Izveidojiet privātu statisku klases atribūtu $totalCars,
+kas skaita izveidotās mašīnas un nepieder nevienai klases instancei.
+Izveidojiet publisku statisku 'getter' metodi,
+kas atgriež visu izveidoto mašīnu skaitu.
+
