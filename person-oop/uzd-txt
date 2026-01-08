@@ -1,0 +1,11 @@
+5. uzdevums
+Izveidojiet klasi Person,
+kas satur šādas privātas īpašības: name un age.
+Paplašiniet Person klasi, pievienojot konstruktoru,
+kas pieņem name un age kā parametrus.
+Pievienojiet metodi showInfo(),
+kas atgriež visu minēto informāciju par personu.
+Izveidojiet vienu Person klases instanci Annai,
+kurai ir 30 gadi. Izsauciet showInfo() metodi šai klases instancei pārliecinoties,
+kas personas informācijas tiek izprintēta.
+Izveidojiet setter metodi vārdam un nomainiet Annas vārdu uz kādu citu.
