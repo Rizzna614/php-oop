@@ -1,0 +1,110 @@
+
+
+---
+
+## 1. uzdevums (indeksēts masīvs + nosacījumi)
+
+Izveidojiet indeksētu masīvu `$numbers`, kas satur skaitļus no 1 līdz 10.
+
+* Izmantojot `foreach`, izdrukājiet tikai tos skaitļus, kas ir **pāra skaitļi**
+* Aprēķiniet un izdrukājiet visu masīva skaitļu **summu**
+
+---
+
+## 2. uzdevums (asociatīvais masīvs + loģika)
+
+Izveidojiet asociatīvo masīvu `$products`, kur:
+
+* Atslēga ir produkta nosaukums
+* Vērtība ir cena (float)
+
+Piemēram: maize, piens, siers (cenas izdomā pats).
+
+Uzdevumi:
+
+* Izdrukājiet visus produktus un to cenas
+* Atrodiet un izdrukājiet **dārgāko produktu**
+* Aprēķiniet visu produktu **kopējo cenu**
+
+---
+
+## 3. uzdevums (daudzdimensiju masīvs + aprēķini)
+
+Izveidojiet daudzdimensiju masīvu `$employees`:
+
+Katram darbiniekam:
+
+* vārds
+* amats
+* alga
+* nostrādātās stundas mēnesī
+
+Uzdevumi:
+
+* Izdrukājiet katra darbinieka vārdu un **mēneša algu**
+* Aprēķiniet, kuram darbiniekam ir **lielākā stundas likme**
+
+---
+
+## 4. uzdevums (OOP – pamata klase)
+
+Izveidojiet klasi `Person` ar īpašībām:
+
+* `$name`
+* `$age`
+
+Izveidojiet:
+
+* konstruktoru
+* metodi `introduce()`, kas izdrukā:
+  `"Sveiki, mani sauc ... un man ir ... gadi"`
+
+Izveidojiet **vismaz 2 objektus** no šīs klases un izsauciet metodi.
+
+---
+
+## 5. uzdevums (OOP + masīvi objektos)
+
+Izveidojiet klasi `Student` ar:
+
+* `$name`
+* `$grades` (masīvs)
+
+Metodes:
+
+* `getAverage()` – aprēķina vidējo atzīmi
+* `printInfo()` – izdrukā studenta vārdu un vidējo atzīmi
+
+Izveidojiet **masīvu ar vairākiem Student objektiem**
+un ar ciklu izdrukājiet visu studentu informāciju.
+
+---
+
+## 6. uzdevums (OOP + mantošana)
+
+Izveidojiet:
+
+* Klasi `Animal` ar īpašībām: `$name`, `$weight`
+* Metodi `makeSound()` (bez realizācijas)
+
+Izveidojiet klases:
+
+* `Dog`
+* `Cat`
+
+Abas **manto no Animal** un katra **pārraksta** `makeSound()` metodi.
+
+Izveidojiet masīvu ar dažādiem dzīvnieku objektiem
+un ar ciklu izsauciet `makeSound()` katram dzīvniekam.
+
+---
+
+## 7. uzdevums (OOP + asociatīvs masīvs)
+
+Izveidojiet klasi `Car` ar:
+
+* `$brand`
+* `$year`
+* `$specs` (asociatīvs masīvs, piem.: krāsa, degviela, jauda)
+
+
