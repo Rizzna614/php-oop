@@ -1,0 +1,140 @@
+1.uzdevums (parasts indeksēts masīvs)
+
+Izveidojiet indeksētu masīvu ar nosaukumu $fruits, kas satur šādus augļus:
+"Ābols", "Banāns", "Ķirsis", "Dateles".
+
+Izdrukājiet otro augli masīvā.
+
+
+2.uzdevums (asociatīvais masīvs)
+
+Izveidojiet asociatīvo masīvu ar nosaukumu $ages ar šādiem atslēgu-vērtību pāriem:
+
+"Alise" => 30
+
+"Bobs" => 25
+
+"Čārlijs" => 35
+
+Izdrukājiet "Boba" vecumu.
+
+
+3.uzdevums (daudzdimensiju masīvs)
+
+Izveidojiet daudzdimensiju masīvu ar nosaukumu $students ar sekojošu struktūru:
+
+Students 1: Vārds: "Džons", Vecums: 20, Atzīmes: [90, 85, 88]
+
+Students 2: Vārds: "Džena", Vecums: 22, Atzīmes: [92, 80, 84]
+
+Students 3: Vārds: "Džo", Vecums: 21, Atzīmes: [78, 85, 90]
+
+Izdrukājiet katra studenta vārdu un vidējo atzīmi.
+
+
+4.uzdevums (ciklošana caur daudzdimensiju masīvu)
+
+Izmantojot $students masīvu no 3. uzdevuma,
+ciklojiet caur masīvu un izdrukājiet katra studenta vārdu, vecumu un atzīmes.
+
+5.uzdevums
+
+Izveido asociatīvo masīvu $assocAnimal, kurā ir dati par dzīvnieku.
+Dzīvnieks ir lauva ar masu 250 kg. Lauva ir zīdītājs un tās laupījums var
+būt gazele un zebra (laupījumam jābūt masīvam ar diviem elementiem).
+Izveido masīvu $animals, kurā ir trīs dzīvnieki. Parējo divu dzīvnieku datus izdomā pats.
+Izveido ciklu, kas izvada katra dzīvnieka datus ar var_dump funkciju.
+
+
+6.uzdevums
+
+Izveidojiet PHP skriptu, kas masīvu ['red', 'blue', 'green', 'yellow']
+pārveido par String elementu "Colors: red, blue, green, yellow".
+Neizmantojiet PHP iebūvētās funkcijas.
+
+7.uzdevums
+
+Izveidojiet daudzdimensionālu masīvu, kas satur sekojošus datus par divām personām.
+
+
+1. persona
+
+vārds: Jānis
+
+vecums: 20
+
+e-pasts: janis@janis.lv
+
+valodas: PHP, Python, Java
+
+
+2. persona
+
+vārds: Antra
+
+vecums: 34
+
+e-pasts: antra@antra.com
+
+valodas: HTML, Javascript, SQL
+
+
+
+
+
+Papilduzdevums
+
+Jums ir plakans masīvs, kas satur informāciju par pasūtījumiem un to attiecīgajiem produktiem. Jūsu uzdevums ir izveidot daudzdimensiju masīvu, kur katrs pasūtījums satur savus produktus.
+
+
+$orders = [
+
+    ['order_id' => 1, 'customer' => 'Alise', 'product' => 'Grāmata'],
+
+    ['order_id' => 1, 'customer' => 'Alise', 'product' => 'Pildspalva'],
+
+    ['order_id' => 2, 'customer' => 'Bobs', 'product' => 'Dators'],
+
+    ['order_id' => 2, 'customer' => 'Bobs', 'product' => 'Pelīte'],
+
+    ['order_id' => 3, 'customer' => 'Čārlijs', 'product' => 'Kafijas automāts'],
+
+];
+
+
+Izveidojiet daudzdimensiju masīvu ar nosaukumu $groupedOrders, kur katrs pasūtījums satur savu identifikatoru, klienta vārdu un masīvu ar produktiem.
+
+
+$groupedOrders = [
+
+    [
+
+        'order_id' => 1,
+
+        'customer' => 'Alise',
+
+        'products' => ['Grāmata', 'Pildspalva'],
+
+    ],
+
+    [
+
+        'order_id' => 2,
+
+        'customer' => 'Bobs',
+
+        'products' => ['Dators', 'Pelīte'],
+
+    ],
+
+    [
+
+        'order_id' => 3,
+
+        'customer' => 'Čārlijs',
+
+        'products' => ['Kafijas automāts'],
+
+    ],
+
+];
